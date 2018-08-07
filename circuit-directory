@@ -28,7 +28,6 @@ function circuit-directory {
   for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
   alias cdd='cd -'
-  alias ...='cd ../..'
 
   #
   # Functions
